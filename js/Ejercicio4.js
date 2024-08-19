@@ -1,6 +1,7 @@
 /*EJERCICIO 4: Crear una función que en base a 2 números enteros que ingrese el usuario,
 calcular cual número es el mayor y devolverlo.*/
 
+//Funcion para comparar numeros
 const higher = (n1, n2) =>{
 
     if(n1 > n2){
@@ -14,6 +15,7 @@ const higher = (n1, n2) =>{
     }
 }
 
+//Lecturas de numeros
 let number1 = parseInt(prompt('Ingrese el primer número'), 10);
 let number2 = parseInt(prompt('Ingrese el segundo número'), 10);
 
